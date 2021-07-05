@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>my weight</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  </head>
+  <body id="body">
+    <div>
+      <div class="form-row">
+        <div class="col">
+          <input id="weightTextbox" type="text" class="form-control" placeholder="Weight (lbs)">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <input id="heightFtTextbox" type="text" class="form-control" placeholder="Height (feet)">
+        </div>
+        <div class="col">
+          <input id="heightInTextbox" type="text" class="form-control" placeholder="Height (inches)">
+        </div>
+     </div>
+      <!-- </div> -->
+      <a class="btn btn-primary" id="bmiButton">bmi</a>
+      <!-- <a class="btn btn-primary" id="darkButton">dark</a> -->
+      <a class="btn btn-primary" id="curveButton">curved</a>
+      <!-- <a class="btn btn-primary" id="fillButton">filled</a> -->
+      <span id="bmiTextfield"></span>
+      <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./mychart.js"></script>
+
+  </body>
+</html>
